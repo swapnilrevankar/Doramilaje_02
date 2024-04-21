@@ -348,6 +348,7 @@ MonoBehaviour:
       colliderList:
       - {fileID: 1127959510317628338}
       - {fileID: 2902429707371657616}
+      - {fileID: 7393927343162122822}
       collisionBones: []
       limitDistance:
         value: 0.05
@@ -519,6 +520,52 @@ Transform:
   - {fileID: 8476293380165628926}
   m_Father: {fileID: 7627940580461388165}
   m_LocalEulerAnglesHint: {x: -2.8, y: -11, z: 0}
+--- !u!1 &2599377266610828391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3468386212644004083}
+  - component: {fileID: 7393927343162122822}
+  m_Layer: 0
+  m_Name: Magica Plane Collider (hik_Cn_inner_01_JNT)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3468386212644004083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2599377266610828391}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0421, y: -0.0118, z: -0}
+  m_LocalScale: {x: 0.14692065, y: 0.23986, z: 0.23986}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3516428682227871717}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7393927343162122822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2599377266610828391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1771fb5869b59304e82522e24e85fd40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {x: 0, y: 0, z: 0}
+  size: {x: 0, y: 0, z: 0}
 --- !u!1 &2706196730711181099
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,6 +1118,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5247856437594357287}
+    - targetCorrespondingSourceObject: {fileID: -665027076464768645, guid: 99e92362890dce146b11b472f7a75110,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3468386212644004083}
     - targetCorrespondingSourceObject: {fileID: 1177467039129598586, guid: 99e92362890dce146b11b472f7a75110,
         type: 3}
       insertIndex: -1
@@ -1084,6 +1135,12 @@ PrefabInstance:
 --- !u!4 &154880663428688372 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4310020708599296150, guid: 99e92362890dce146b11b472f7a75110,
+    type: 3}
+  m_PrefabInstance: {fileID: 5046710151078405790}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3516428682227871717 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -665027076464768645, guid: 99e92362890dce146b11b472f7a75110,
     type: 3}
   m_PrefabInstance: {fileID: 5046710151078405790}
   m_PrefabAsset: {fileID: 0}
