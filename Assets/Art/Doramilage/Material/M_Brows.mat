@@ -133,10 +133,10 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 0
     m_Colors:
-    - Color_1C5A1173: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
-    - Color_52EF55BA: {r: 0.24313727, g: 0.07450981, b: 0.09411766, a: 1}
-    - Color_CF1227FA: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
-    - Color_E6DB92F6: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    - Color_1C5A1173: {r: 0, g: 0, b: 0, a: 1}
+    - Color_52EF55BA: {r: 0.18431373, g: 0.08235294, b: 0.08235294, a: 1}
+    - Color_CF1227FA: {r: 0, g: 0, b: 0, a: 1}
+    - Color_E6DB92F6: {r: 0, g: 0, b: 0, a: 1}
     - Vector3_F569DE10: {r: 0, g: -1, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
